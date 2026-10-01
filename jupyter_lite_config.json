@@ -2,6 +2,7 @@
   "PyodideLockAddon": {
     "enabled": true,
     "specs": [
+      "anyplotlib",
       "hyperspy[gui-jupyter]",
       "ipympl",
       "rosettasciio"
@@ -10,9 +11,11 @@
       "mpmath>=1.1,<1.4"
     ],
     "prefetch_extra": [
-      "matplotlib",
-      "ipywidgets",
+      "anyplotlib",
+      "hyperspy",
       "ipympl",
+      "ipywidgets",
+      "matplotlib"
     ]
   }
 }
