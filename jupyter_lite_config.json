@@ -1,0 +1,18 @@
+{
+  "PyodideLockAddon": {
+    "enabled": true,
+    "specs": [
+      "hyperspy[gui-jupyter]",
+      "ipympl",
+      "rosettasciio"
+    ],
+    "constraints": [
+      "mpmath>=1.1,<1.4"
+    ],
+    "prefetch_extra": [
+      "matplotlib",
+      "ipywidgets",
+      "ipympl",
+    ]
+  }
+}
